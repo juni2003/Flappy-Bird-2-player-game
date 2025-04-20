@@ -103,12 +103,13 @@ MIT Licensed - Open for collaboration and customization
 ```bash
 git clone https://github.com/yourusername/Flappy-Bird-for-2-players.git
 ```
-2.Compile with:
+2. Compile with:
 
 ```
 g++ src/*.cpp -o flappy_bird -lsfml-graphics -lsfml-window -lsfml-system
-Launch game:
 ```
+3. Launch game:
+
 ```bash
 ./flappy_bird
 ```
