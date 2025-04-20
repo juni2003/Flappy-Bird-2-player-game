@@ -64,7 +64,7 @@
 
 
 ## 📂 Project Structure
-
+```sh
 Flappy-Bird-for-2-players/
 ├── assets/                # Game textures, fonts, and audio
 │   ├── bg.png             # Background image
@@ -79,12 +79,7 @@ Flappy-Bird-for-2-players/
 │   └── main.cpp           # Entry point
 ├── CMakeLists.txt         # Build configuration (optional)
 └── README.md              # Project documentation
-
-# Flappy Bird for Two Players - SFML (C++)
-
-![Game Badge](https://img.shields.io/badge/Game-2%20Player%20Flappy%20Bird-blue)
-![Framework Badge](https://img.shields.io/badge/Framework-SFML-orange)
-![Language Badge](https://img.shields.io/badge/Language-C%2B%2B-red)
+```
 
 ## 🎯 Why This Project?
 
@@ -105,18 +100,18 @@ MIT Licensed - Open for collaboration and customization
 ## 🚀 Quick Start
 
 1. Clone repository:
-
+```bash
 git clone https://github.com/yourusername/Flappy-Bird-for-2-players.git
-
+```
 2.Compile with:
 
-bash
+```
 g++ src/*.cpp -o flappy_bird -lsfml-graphics -lsfml-window -lsfml-system
 Launch game:
-
-bash
+```
+```bash
 ./flappy_bird
-
+```
 ##💖 Support the Project
 Give this repo a ⭐ if you find it valuable!
 
