@@ -64,7 +64,7 @@
 
 
 ## 📂 Project Structure
-```sh
+```
 Flappy-Bird-for-2-players/
 ├── assets/                # Game textures, fonts, and audio
 │   ├── bg.png             # Background image
@@ -114,5 +114,5 @@ g++ src/*.cpp -o flappy_bird -lsfml-graphics -lsfml-window -lsfml-system
 ./flappy_bird
 ```
 ##💖 Support the Project
-Give this repo a ⭐ if you find it valuable!
+Give this repo a star ⭐ if you find it valuable!
 
