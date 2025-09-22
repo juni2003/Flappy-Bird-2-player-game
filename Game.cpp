@@ -157,12 +157,13 @@ void Game::doProcessing(Time& dt)
         pipe_counter++;
         
         // Update existing pipes and remove off-screen ones
-        for (int i = 0; i < pipes.size(); i++)
+        for (size_t i = 0; i < pipes.size(); i++)  // Fixed: use size_t to avoid signed/unsigned comparison warning
         {
             pipes[i].update(dt);
             if (pipes[i].getRightBound() < 0)
             {
                 pipes.erase(pipes.begin() + i);
+                i--; // Decrement i since we removed an element
             }
         }
         

@@ -27,6 +27,9 @@ using namespace sf;
 class Game
 {
 private:
+    // Window reference (must be first to match initialization order)
+    RenderWindow& win;                          ///< Reference to the main game window
+    
     // Menu and UI textures/sprites
     Texture menu_texture, controls_texture;     ///< Textures for menu and controls screens
     Sprite menu_sprite, controls_sprite;        ///< Sprites for menu and controls screens
@@ -139,8 +142,6 @@ public:
      * @param window Reference to the SFML RenderWindow for rendering
      */
     Game(RenderWindow& window);
-    
-    RenderWindow& win;                          ///< Reference to the main game window
     
     /**
      * @brief Main game loop that handles events, updates, and rendering
